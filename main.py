@@ -7,18 +7,18 @@ a fixed string, no network, no input, no randomness.
 
 The joke: I block focus time on my calendar, and my boss books a
 meeting right over it — titled "Quick Sync About Your Focus Time."
-The punchline is the meeting title itself, in the last words: the
-very thing the focus time was meant to protect against, scheduled
-as a meeting about the focus time. Specific office detail
-(calendar block, meeting title), a familiar setup taken somewhere
-unexpected, and nothing left to cut.
+The punchline is the meeting title itself, set off by a colon as
+its own beat in the last words: the very thing the focus time was
+meant to protect against, scheduled as a meeting about the focus
+time. Specific office detail (calendar block, meeting title), a
+familiar setup taken somewhere unexpected, and nothing left to cut.
 """
 
 import os
 
 JOKE = (
-    "I blocked focus time on my calendar, so my boss booked a meeting "
-    "over it titled 'Quick Sync About Your Focus Time.'"
+    "I blocked focus time on my calendar. My boss booked a meeting "
+    "right over it: 'Quick Sync About Your Focus Time.'"
 )
 
 MAX_CHARS = 200  # competition gate: one line, 1-200 characters
